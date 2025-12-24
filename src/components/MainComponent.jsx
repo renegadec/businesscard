@@ -1,10 +1,11 @@
 import { IoMdMail } from "react-icons/io";
 import { GrLinkedin } from "react-icons/gr";
+import profilePhoto from '../assets/me.png';
 
 export default function MainComponent() {
     return (
         <main className='main-component'>
-            <img src='/src/assets/me.png' alt='profile photo' className='profile-photo' />
+            <img src={profilePhoto} alt='profile photo' className='profile-photo' />
             <div className='title-container'>
                 <h1>Confidence Nyirenda</h1>
                 <p>Fullstack Developer</p>
