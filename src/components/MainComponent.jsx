@@ -11,12 +11,12 @@ export default function MainComponent() {
                 <p>africoiner.com</p>
             </div>
             <div className='button-container'>
-                <button>
+                <a href="mailto:cn@tswaanda.com">
                     <IoMdMail /> Email
-                </button>
-                <button>
+                </a>
+                <a href="https://www.linkedin.com/in/confidencenyirenda/" target="_blank">
                    <GrLinkedin /> LinkedIn
-                </button>
+                </a>
             </div>
             <div className='about-container'>
                 <h2>About</h2>
